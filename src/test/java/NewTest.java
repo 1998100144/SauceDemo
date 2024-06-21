@@ -6,32 +6,6 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
-// id
-//name
-//classname
-//tagname
-//linktext
-//partiallinktext
-//xpath
-//Поиск по атрибуту, например By.xpath("//tag[@attribute='value']");
-//Поиск по тексту, например By.xpath("//tag[text()='text']");
-//Поиск по частичному совпадению атрибута, например By.xpath("//tag[contains(@attribute,'text')]");
-//Поиск по частичному совпадению текста, например By.xpath("//tag[contains(text(),'text')]");
-//ancestor, например //*[text()='Enterprise Testing']//ancestor::div
-//descendant
-//following
-//parent
-//preceding
-//Подсказка:  XPath Axes
-//*поиск элемента с условием AND, например //input[@class='_2zrpKA _1dBPDZ' and @type='text']
-//css
-//.class
-//.class1.class2
-//.class1 .class2
-//#id
-//tagname
-//tagname.class
-//[attribute=value]
 
 public class NewTest {
 
