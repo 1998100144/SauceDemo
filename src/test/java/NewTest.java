@@ -11,16 +11,12 @@ public class NewTest {
 
    @Test
     public void swagLabs1() {
-        // открыть браузер
-        //зайти на сайт
        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
        WebDriver browser = new ChromeDriver();
        browser.get("https://www.saucedemo.com");
        browser.findElement(By.id("user-name"));
        browser.findElement(By.name("user-name"));
        browser.findElement(By.className("submit-button"));
-       //browser.findElement(By.linkText(""));
-       //browser.findElement(By.partialLinkText("pricing"));
        browser.findElement(By.xpath("//input[@id='user-name']"));
        browser.findElement(By.xpath("//h4[text()='Accepted usernames are:']"));
        browser.findElement(By.xpath("//input[contains(@placeholder,'Password')]"));
