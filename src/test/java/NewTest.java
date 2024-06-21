@@ -17,6 +17,8 @@ public class NewTest {
        browser.findElement(By.id("user-name"));
        browser.findElement(By.name("user-name"));
        browser.findElement(By.className("submit-button"));
+       //browser.findElement(By.linkText("text")); не нашла подходящий пример с тегом <a>
+       //browser.findElement(By.partialLinkText("text")); не нашла подходящий пример с тегом <a>
        browser.findElement(By.xpath("//input[@id='user-name']"));
        browser.findElement(By.xpath("//h4[text()='Accepted usernames are:']"));
        browser.findElement(By.xpath("//input[contains(@placeholder,'Password')]"));
